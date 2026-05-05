@@ -20,67 +20,9 @@ Moreover, CE-VFAL seamlessly integrates Zeroth Order Optimization (ZOO) into the
 Furthermore, rigorous theoretical analysis demonstrates the sublinear convergence rate by containing the errors caused by multi-source approximate gradients.
 Extensive experiments corroborate the robust performance while significantly reducing communication costs.
 
-## Usage
-
-### init
-
-```shell
-apt update
-apt upgrade
-apt install screen tree pciutils pkg-config
-vim ~/.ssh/authorized_keys
-vim ~/.bashrc
-```
-
-### env
-
-#### env-docker
-
-```shell
-python -m pip install --upgrade pip wheel setuptools -i https://mirrors.jlu.edu.cn/pypi/simple
-python -m pip install pillow matplotlib tqdm pandas scikit-learn scipy -i https://mirrors.jlu.edu.cn/pypi/simple
-```
-
-#### env-conda
-
-```shell
-conda create -y -n py312 python=3.12
-conda activate py312
-which python
-# https://pytorch.org/
-conda install pytorch torchvision torchaudio pillow matplotlib numpy tqdm pandas pytorch-cuda=12.1 -c pytorch -c nvidia -y
-```
-
-### check
-
-```shell
-nvidia-smi
-py3smi
-which python
-python -c 'import torch;print(torch.cuda.is_available())'
-lscpu
-lsmem
-lspci
-```
-
-### dev
-
-```shell
-python -m pip install seaborn
-# python -m pip install transformers[torch]
-# python -m pip install pytorch_transformers
-# python -m pip install torchrec-nightly torchtext numba
-```
-
-### run
-
-```shell
-screen -R exp
-cd exp
-python train.py
-```
-
 ## BibTeX
 
 ```bibtex
+@inproceedings{CEVFAL2026TianxingMan,
+}
 ```
