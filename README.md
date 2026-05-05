@@ -3,9 +3,9 @@
 CE-VFAL: A Novel Framework for Communication-Efficient Vertical Federated Adversarial Learning
 
 [[IJCAI 2026](https://2026.ijcai.org/)]
-[[Homepage](https://github.com/workelaina/ce-vfal)]
-[[PDF](https://github.com/workelaina/ce-vfal)]
-[[Code](https://github.com/workelaina/ce-vfal)]
+[[Homepage](https://workelaina.github.io/CE-VFAL)]
+[[PDF](https://workelaina.github.io/CE-VFAL/static/blob/CE-VFAL.pdf)]
+[[Code](https://github.com/workelaina/CE-VFAL)]
 
 ## Abstract
 
@@ -83,4 +83,6 @@ python train.py
 ## BibTeX
 
 ```bibtex
+@inproceedings{CEVFAL2026TianxingMan,
+}
 ```
