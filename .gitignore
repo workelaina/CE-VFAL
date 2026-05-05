@@ -32,12 +32,6 @@ archive/
 tempCodeRunnerFile.*
 *.diff
 
-data/
-*/data/
-*/*/data/
-*/*/*/data/
-*/*/*/*/data/
-*/*/*/*/*/data/
 *.csv
 log
 *.log
@@ -45,3 +39,7 @@ result/
 # !result/*/*.csv
 # draw/
 ref/
+
+*.pdf
+*.tex
+*.txt
