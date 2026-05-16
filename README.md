@@ -24,5 +24,15 @@ Extensive experiments corroborate the robust performance while significantly red
 
 ```bibtex
 @inproceedings{CEVFAL2026TianxingMan,
+    title     = {{CE-VFAL}: A Novel Framework for Communication-Efficient Vertical Federated Adversarial Learning},
+    author    = {Tianxing Man and Jinjie Fang and Ganyu Wang and Yu Bai and Zhaogeng Liu and Bin Gu and Yi Chang},
+    booktitle = {Proceedings of the Thirty-Fifth International Joint Conference on
+                Artificial Intelligence, {IJCAI-26}},
+    publisher = {International Joint Conferences on Artificial Intelligence Organization},
+    year      = {2026},
+    month     = {8},
+    note      = {Main Track},
+    doi       = {10.24963/ijcai.2026/5737},
+    url       = {https://doi.org/10.24963/ijcai.2026/5737},
 }
 ```
