@@ -2,7 +2,7 @@
 
 CE-VFAL: A Novel Framework for Communication-Efficient Vertical Federated Adversarial Learning
 
-[[IJCAI 2026](https://2026.ijcai.org/)]
+[[IJCAI 2026](https://www.ijcai.org/proceedings/2026/79)]
 [[Homepage](https://workelaina.github.io/CE-VFAL)]
 [[PDF](https://workelaina.github.io/CE-VFAL/static/blob/CE-VFAL.pdf)]
 [[Code](https://github.com/workelaina/CE-VFAL)]
@@ -83,16 +83,18 @@ python train.py
 ## BibTeX
 
 ```bibtex
-@inproceedings{CEVFAL2026TianxingMan,
+@inproceedings{ijcai2026p79,
   title     = {{CE-VFAL}: A Novel Framework for Communication-Efficient Vertical Federated Adversarial Learning},
-  author    = {Tianxing Man and Jinjie Fang and Ganyu Wang and Yu Bai and Zhaogeng Liu and Bin Gu and Yi Chang},
+  author    = {Man, Tianxing and Fang, Jinjie and Wang, Ganyu and Bai, Yu and Liu, Zhaogeng and Gu, Bin and Chang, Yi},
   booktitle = {Proceedings of the Thirty-Fifth International Joint Conference on
                Artificial Intelligence, {IJCAI-26}},
   publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Diego Calvanese},
+  pages     = {697--705},
   year      = {2026},
   month     = {8},
   note      = {Main Track},
-  doi       = {10.24963/ijcai.2026/5737},
-  url       = {https://doi.org/10.24963/ijcai.2026/5737},
+  doi       = {10.24963/ijcai.2026/79},
+  url       = {https://doi.org/10.24963/ijcai.2026/79},
 }
 ```
